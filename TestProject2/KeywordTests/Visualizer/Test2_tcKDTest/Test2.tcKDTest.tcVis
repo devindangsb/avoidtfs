@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{51D71B19-1B78-42A0-A3A7-B1DF4D23588E}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="42971.6048032407" objectName="Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel.panelControlHost.outlineNamespaceTreeControl" objectLeft="9" objectTop="99" objectRight="262" objectBottom="497" clickPointX="157" clickPointY="165" imageFileName="tcvi5694754108440.png" storageFileName="tcvi5694754108440.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="42971.6051273148" objectName="Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel.panelControlHost.outlineNamespaceTreeControl.outlineitemDocuments" objectLeft="57" objectTop="360" objectRight="122" objectBottom="381" clickPointX="117" clickPointY="368" imageFileName="tcvi5723317108442.png" storageFileName="tcvi5723317108442.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="42971.6053587963" objectName="Aliases.explorer.formDownloads.panel.toolwindow.panel.progressbar.panel.toolbarAddressLibrariesDocuments" objectLeft="80" objectTop="35" objectRight="934" objectBottom="57" clickPointX="398" clickPointY="41" imageFileName="tcvi5744315108447.png" storageFileName="tcvi5744315108447.7z" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

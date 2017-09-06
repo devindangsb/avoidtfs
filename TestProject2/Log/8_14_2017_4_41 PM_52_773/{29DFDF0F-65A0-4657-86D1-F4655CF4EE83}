@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi277073061256411.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8621875"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="647"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="click point y" type="I" value="481"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8625716667"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="647"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="click point y" type="I" value="481"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (639, 451) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.MCConfigurator.formSetupstudio0901.client&#xA;(Sys.Process(&quot;MCConfigurator&quot;).Form(&quot;SetupStudio [0.9.0.1]&quot;).Client(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was double-clicked by the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.6959058102"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{1112272C-13F4-40B9-B7D0-86766AA21547}"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi27696245125642.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8620601852"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="607"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point y" type="I" value="455"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8625455324"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="607"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point y" type="I" value="455"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (599, 425) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.MCConfigurator.formSetupstudio0901.client&#xA;(Sys.Process(&quot;MCConfigurator&quot;).Form(&quot;SetupStudio [0.9.0.1]&quot;).Client(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was double-clicked by the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.6958797917"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi27701846125646.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8621296296"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="668"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="click point y" type="I" value="453"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8625556481"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="668"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="click point y" type="I" value="453"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (660, 423) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.MCConfigurator.formSetupstudio0901.client&#xA;(Sys.Process(&quot;MCConfigurator&quot;).Form(&quot;SetupStudio [0.9.0.1]&quot;).Client(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.6958894213"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-4" type="D" value="42"/>
+				<Prp name="dv-9" type="D" value="42"/>
+				<Prp name="dv-5" type="D" value="42"/>
+				<Prp name="dv-0" type="D" value="42"/>
+				<Prp name="dv-10" type="D" value="42"/>
+				<Prp name="dv-6" type="D" value="42"/>
+				<Prp name="dv-2" type="D" value="42"/>
+				<Prp name="dv-1" type="D" value="42"/>
+				<Prp name="dv-7" type="D" value="42"/>
+				<Prp name="dv-3" type="D" value="42"/>
+				<Prp name="dv-8" type="D" value="42"/>
+			</Node>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="id" type="S" value="{ED3F7DD5-7804-49AB-8D1A-F9B41AD0EF31}"/>
+			<Prp name="countertype" type="I" value="1"/>
+			<Prp name="columnindex" type="I" value="1"/>
+			<Prp name="length" type="I" value="11"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="remarks" type="S" value="Hover at point (869, 264).&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAmazingTali.panelMediaspaceDisplay.panelJwpreviewJwuniform&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;https://amazing_tali.tinytake.com/sf/MTg3MDA0Nl82MDEwMjM0&quot;).Panel(1).Panel(&quot;doc_viewer_container&quot;).Panel(&quot;docview_lhs&quot;).Panel(&quot;docview_lhs_inner&quot;).Panel(&quot;doc_viewer&quot;).Panel(&quot;doc_container&quot;).Panel(&quot;mediaspace&quot;).Panel(&quot;mediaspace_display&quot;).Panel(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The mouse pointer hovered over the window."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.6958766435"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi27698741125644.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8620949074"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="633"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="click point y" type="I" value="447"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8625475926"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="633"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="click point y" type="I" value="447"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (625, 417) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.MCConfigurator.formSetupstudio0901.client&#xA;(Sys.Process(&quot;MCConfigurator&quot;).Form(&quot;SetupStudio [0.9.0.1]&quot;).Client(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was double-clicked by the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.6958820255"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi277086161256412.png"/>
+					<Prp name="object right" type="I" value="773"/>
+					<Prp name="datetime" type="D" value="42961.8622106481"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="497"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client.tablist.pagetabProject.client.pane.client.tablist.pagetabProperties.client.client.list.listitemMccfgrctrlsModelaxistool2.buttonItemMccfgrctrlsModelaxisto.edit"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-436"/>
+					<Prp name="object left" type="I" value="576"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="click point y" type="I" value="-146"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="471"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object right" type="I" value="773"/>
+					<Prp name="datetime" type="D" value="42961.8625739931"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="497"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client.tablist.pagetabProject.client.pane.client.tablist.pagetabProperties.client.client.list.listitemMccfgrctrlsModelaxistool2.buttonItemMccfgrctrlsModelaxisto.edit"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="576"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="471"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'4545454' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.MCConfigurator.formSetupstudio0901.client.tablist.pagetabProject.client.pane.client.tablist.pagetabProperties.client.client.list.listitemMccfgrctrlsModelaxistool2.buttonItemMccfgrctrlsModelaxisto.edit&#xA;(Sys.Process(&quot;MCConfigurator&quot;).Form(&quot;SetupStudio [0.9.0.1]&quot;).Client(0).TabList(0).PageTab(&quot;Project&quot;).Client(0).Pane(0).Client(0).TabList(0).PageTab(&quot;Properties&quot;).Client(0).Client(5).List(0).ListItem(&quot;MCCfgrCtrls.ModelAxisTools.AxisProperty&quot;, 3).Button(&quot;Item: MCCfgrCtrls.ModelAxisTools.AxisProperty, Column Display Index: 4&quot;).Edit(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.6959101968"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi27702657125647.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8621412037"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="670"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="click point y" type="I" value="453"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8625572685"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="670"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="click point y" type="I" value="453"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 662, 423.&#xA;End point: 526, 423.&#xA;Dragging distance: -136, 0.&#xA;&#xA;Tested object:&#xA;Aliases.MCConfigurator.formSetupstudio0901.client&#xA;(Sys.Process(&quot;MCConfigurator&quot;).Form(&quot;SetupStudio [0.9.0.1]&quot;).Client(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.695898588"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-4" type="D" value="50"/>
+				<Prp name="dv-9" type="D" value="35"/>
+				<Prp name="dv-5" type="D" value="50"/>
+				<Prp name="dv-0" type="D" value="0"/>
+				<Prp name="dv-10" type="D" value="42"/>
+				<Prp name="dv-6" type="D" value="27"/>
+				<Prp name="dv-2" type="D" value="26"/>
+				<Prp name="dv-1" type="D" value="30"/>
+				<Prp name="dv-7" type="D" value="33"/>
+				<Prp name="dv-3" type="D" value="26"/>
+				<Prp name="dv-8" type="D" value="33"/>
+			</Node>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="id" type="S" value="{E7B01A20-5F56-4DE4-9C10-FE1ED741DFFF}"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="4"/>
+			<Prp name="length" type="I" value="11"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="remarks" type="S" value="URL: https://amazing_tali.tinytake.com/sf/MTg3MDA0Nl82MDEwMjM0&#xA;&#xA;Aliases.browser"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Navigating to the https://amazing_tali.tinytake.com/sf/MTg3MDA0Nl82MDEwMjM0 page."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.6958197685"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-4" type="D" value="334823424"/>
+				<Prp name="dv-9" type="D" value="340570112"/>
+				<Prp name="dv-5" type="D" value="334823424"/>
+				<Prp name="dv-0" type="D" value="331247616"/>
+				<Prp name="dv-10" type="D" value="337502208"/>
+				<Prp name="dv-6" type="D" value="332423168"/>
+				<Prp name="dv-2" type="D" value="331788288"/>
+				<Prp name="dv-1" type="D" value="331350016"/>
+				<Prp name="dv-7" type="D" value="332562432"/>
+				<Prp name="dv-3" type="D" value="331788288"/>
+				<Prp name="dv-8" type="D" value="332562432"/>
+			</Node>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="id" type="S" value="{6E5C624C-B360-41D2-8484-795D1890D4FC}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="2"/>
+			<Prp name="length" type="I" value="11"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-8" type="D" value="42961.6959038426"/>
+				<Prp name="d-4" type="D" value="42961.6958878125"/>
+				<Prp name="d-9" type="D" value="42961.6959058102"/>
+				<Prp name="d-5" type="D" value="42961.6958894213"/>
+				<Prp name="d-0" type="D" value="42961.6958691551"/>
+				<Prp name="d-10" type="D" value="42961.6959101968"/>
+				<Prp name="d-6" type="D" value="42961.695898588"/>
+				<Prp name="d-2" type="D" value="42961.6958797917"/>
+				<Prp name="d-1" type="D" value="42961.6958766435"/>
+				<Prp name="d-7" type="D" value="42961.695902037"/>
+				<Prp name="d-3" type="D" value="42961.6958820255"/>
+			</Node>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="length" type="I" value="11"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi27703375125648.png"/>
+					<Prp name="object right" type="I" value="773"/>
+					<Prp name="datetime" type="D" value="42961.8621412037"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="468"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client.tablist.pagetabProject.client.pane.client.tablist.pagetabProperties.client.client.list.listitemMccfgrctrlsModelaxistool.buttonItemMccfgrctrlsModelaxisto.edit"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-436"/>
+					<Prp name="object left" type="I" value="576"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="click point y" type="I" value="-146"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="442"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object right" type="I" value="773"/>
+					<Prp name="datetime" type="D" value="42961.8625662616"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="468"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client.tablist.pagetabProject.client.pane.client.tablist.pagetabProperties.client.client.list.listitemMccfgrctrlsModelaxistool.buttonItemMccfgrctrlsModelaxisto.edit"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="576"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="442"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'345345353' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.MCConfigurator.formSetupstudio0901.client.tablist.pagetabProject.client.pane.client.tablist.pagetabProperties.client.client.list.listitemMccfgrctrlsModelaxistool.buttonItemMccfgrctrlsModelaxisto.edit&#xA;(Sys.Process(&quot;MCConfigurator&quot;).Form(&quot;SetupStudio [0.9.0.1]&quot;).Client(0).TabList(0).PageTab(&quot;Project&quot;).Client(0).Pane(0).Client(0).TabList(0).PageTab(&quot;Properties&quot;).Client(0).Client(5).List(0).ListItem(&quot;MCCfgrCtrls.ModelAxisTools.AxisProperty&quot;, 2).Button(&quot;Item: MCCfgrCtrls.ModelAxisTools.AxisProperty, Column Display Index: 4&quot;).Edit(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.695902037"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-4" type="D" value="49"/>
+				<Prp name="dv-9" type="D" value="35"/>
+				<Prp name="dv-5" type="D" value="49"/>
+				<Prp name="dv-0" type="D" value="34"/>
+				<Prp name="dv-10" type="D" value="43"/>
+				<Prp name="dv-6" type="D" value="28"/>
+				<Prp name="dv-2" type="D" value="28"/>
+				<Prp name="dv-1" type="D" value="30"/>
+				<Prp name="dv-7" type="D" value="33"/>
+				<Prp name="dv-3" type="D" value="28"/>
+				<Prp name="dv-8" type="D" value="33"/>
+			</Node>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="id" type="S" value="{F91DAB6A-8803-4C10-A538-0C9C7D30F3FD}"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="3"/>
+			<Prp name="length" type="I" value="11"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi27704716125649.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8621643518"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="667"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="click point y" type="I" value="477"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object right" type="I" value="1042"/>
+					<Prp name="datetime" type="D" value="42961.8625698264"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="752"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="667"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="click point y" type="I" value="477"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="30"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (659, 447) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.MCConfigurator.formSetupstudio0901.client&#xA;(Sys.Process(&quot;MCConfigurator&quot;).Form(&quot;SetupStudio [0.9.0.1]&quot;).Client(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.6959038426"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi27699475125645.png"/>
+					<Prp name="object right" type="I" value="773"/>
+					<Prp name="datetime" type="D" value="42961.8621064815"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="468"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client.tablist.pagetabProject.client.pane.client.tablist.pagetabProperties.client.client.list.listitemMccfgrctrlsModelaxistool.buttonItemMccfgrctrlsModelaxisto.edit"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-436"/>
+					<Prp name="object left" type="I" value="576"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="click point y" type="I" value="-146"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="442"/>
+				</Node>
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object right" type="I" value="773"/>
+					<Prp name="datetime" type="D" value="42961.8625514931"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="468"/>
+					<Prp name="object name" type="S" value="Aliases.MCConfigurator.formSetupstudio0901.client.tablist.pagetabProject.client.pane.client.tablist.pagetabProperties.client.client.list.listitemMccfgrctrlsModelaxistool.buttonItemMccfgrctrlsModelaxisto.edit"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="576"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="442"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="'g34543453453' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.MCConfigurator.formSetupstudio0901.client.tablist.pagetabProject.client.pane.client.tablist.pagetabProperties.client.client.list.listitemMccfgrctrlsModelaxistool.buttonItemMccfgrctrlsModelaxisto.edit&#xA;(Sys.Process(&quot;MCConfigurator&quot;).Form(&quot;SetupStudio [0.9.0.1]&quot;).Client(0).TabList(0).PageTab(&quot;Project&quot;).Client(0).Pane(0).Client(0).TabList(0).PageTab(&quot;Properties&quot;).Client(0).Client(5).List(0).ListItem(&quot;MCCfgrCtrls.ModelAxisTools.AxisProperty&quot;, 2).Button(&quot;Item: MCCfgrCtrls.ModelAxisTools.AxisProperty, Column Display Index: 4&quot;).Edit(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42961.6958878125"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 1">
+			<Prp name="date" type="D" value="42969.6969357176"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The property checkpoint passed (the currentTime equals &quot;104.285281&quot;)."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;																	   &lt;head&gt;																	   &lt;style&gt;																	   body, table																	   {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0; width: 100%; text-align:left}																	   TH																	   {font-weight : normal;}																	   TD																	   { border-bottom: 2px solid #A0B5D0;}																	   SPAN.Gray																	   {color: #6D6D6D; }																	   SPAN.GrayBold																	   {font-weight: bold; color: #6D6D6D; }																	   SPAN.Bold																	   {font-weight: bold;}																	   .BoldLineBottom																	   {border-bottom: 2px solid #A0B5D0}																	   .BoldLineTop																	   {border-top: 2px solid #A0B5D0}																	   .BK {background-color: #DBEFFD}																	   .HB																	   {width:10%; white-space:nowrap;padding: 4px 4px 4px 4px;font-weight : bold;}																	   &lt;/style&gt;																	   &lt;/head&gt;																	   &lt;body&gt;																	   &lt;p&gt;The &quot;currentTime&quot; property of the &quot;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{DC06B796-7706-4E28-B928-679D238D507C}&quot;&gt;Aliases.browser.pageWwwYoutubeComWatchVPzlwd8i5w.video&lt;/a&gt;&quot; object meets the checkpoint's condition.&lt;/p&gt;																	   &lt;table border=0 cellspacing=0 cellpadding=3&gt;																	   &lt;thead class='BK' valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineTop HB'&gt;Object name:&lt;/th&gt;																	   &lt;th class='BoldLineTop'&gt;Aliases.browser.pageWwwYoutubeComWatchVPzlwd8i5w.video&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineBottom HB'&gt;Property:&lt;/th&gt;																	   &lt;th class='BoldLineBottom'&gt;currentTime&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;/thead&gt;																	   &lt;tbody valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;td class='BK HB'&gt;Actual value&lt;/td&gt;																	   &lt;td&gt;104.285281&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class='BK HB'&gt;Expected value&lt;/td&gt;																	   &lt;td&gt;&quot;104.285281&quot;&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Condition&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;cmpEqual&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Case-sensitive&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;true&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;/tbody&gt;																	   &lt;/table&gt;																	   																	   &lt;/body&gt;																	   &lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{51D71B19-1B78-42A0-A3A7-B1DF4D23588E}"/>
+		</Node>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="100"/>
+				<Prp name="dv-1" type="D" value="13"/>
+			</Node>
+			<Prp name="id" type="S" value="{E1EE018B-F4BA-47E8-8FE1-A070E2C1DFF7}"/>
+			<Prp name="columnindex" type="I" value="4"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="countertype" type="I" value="0"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="400490496"/>
+				<Prp name="dv-1" type="D" value="405217280"/>
+			</Node>
+			<Prp name="id" type="S" value="{36F5D554-CF2A-4FB2-BA09-0E3635B2AAFF}"/>
+			<Prp name="columnindex" type="I" value="2"/>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="countertype" type="I" value="4"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="42969.6967835069"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Ambiguous browser recognition."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;There are several browsers running in the system. The executed test commands do not specify the web browser to be used (this can happen, for example, when you are running part of your test).&lt;/p&gt;&lt;p style=&quot;margin-top : 12px;&quot;&gt;&lt;b&gt;&lt;u&gt;Launched browsers:&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;div style=&quot;margin-left: 24px;&quot;&gt;Sys.Browser(&quot;chrome&quot;)&lt;br&gt;Sys.Browser(&quot;firefox&quot;)&lt;/div&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;Please close the browsers you do not want to use and run the test again. Alternatively, you can run the test from the Run Browser or Navigate command that specifies the desired browser (IExplore, Firefox, Chrome).&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://4297&quot;&gt;See Help for more information&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="37"/>
+				<Prp name="dv-1" type="D" value="37"/>
+			</Node>
+			<Prp name="id" type="S" value="{9F385630-9329-4EC7-B0EE-18929B6C92E1}"/>
+			<Prp name="columnindex" type="I" value="1"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="countertype" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42969.6968466898"/>
+				<Prp name="d-1" type="D" value="42969.6969357176"/>
+			</Node>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="countertype" type="I" value="4"/>
+		</Node>
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="29"/>
+				<Prp name="dv-1" type="D" value="13"/>
+			</Node>
+			<Prp name="id" type="S" value="{9631F00B-0EBE-4F73-B4CC-1D7ADA81299B}"/>
+			<Prp name="columnindex" type="I" value="3"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="countertype" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+	</Node>
+</Nodes>

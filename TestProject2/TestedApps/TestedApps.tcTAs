@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1140" key="{56B665DE-C94A-49D4-A018-DA481DD7E874}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{C8073CF5-E2AA-487D-B963-3AB9934F6A3F}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="Orders" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="Orders.exe" filePath="C:\Users\Public\Documents\TestComplete 12 Samples\Desktop\Orders\WPF\bin\Release\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{11A340AE-3E74-4B15-B1FA-F12A0894BE2C}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="google_com" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Web">
+					<param name="Web" parameters="" workFolder="" browserType="Google Chrome" browserVersion="59.0" pageAddress="google.com" browserArguments="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{D0DADCC5-1222-411A-8A27-EDDFAFC90B01}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="notepad" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="%HOMEDRIVE%%HOMEPATH%" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="%HOMEDRIVE%%HOMEPATH%" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="%HOMEDRIVE%%HOMEPATH%" />
+					<param name="Simple" fileName="notepad.exe" filePath="%windir%\system32\" parameters="" workFolder="%HOMEDRIVE%%HOMEPATH%" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{32CD9505-E24B-40EC-958B-FCD6B2B8FD26}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="ActivationTool" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Program Files (x86)\SmartBear\License Manager\" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Program Files (x86)\SmartBear\License Manager\" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Program Files (x86)\SmartBear\License Manager\" />
+					<param name="Simple" fileName="ActivationTool.exe" filePath="C:\Program Files (x86)\SmartBear\License Manager\" parameters="" workFolder="C:\Program Files (x86)\SmartBear\License Manager\" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{A227BBA1-497D-4D53-8481-B2BFB70387AB}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="msinfo32" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="C:\Users\devin.dang\Desktop\a.nfo" workFolder="C:\Users\devin.dang\Desktop" userName="" password="" domain="" />
+					<param name="Profile" parameters="C:\Users\devin.dang\Desktop\a.nfo" workFolder="C:\Users\devin.dang\Desktop" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="C:\Users\devin.dang\Desktop\a.nfo" workFolder="C:\Users\devin.dang\Desktop" />
+					<param name="Simple" fileName="msinfo32.exe" filePath="C:\Windows\system32\" parameters="C:\Users\devin.dang\Desktop\a.nfo" workFolder="C:\Users\devin.dang\Desktop" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{A2948C27-8E02-4A46-923C-B351AFA4A8C6}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="calc" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="calc.exe" filePath="%windir%\system32\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{FE82D80C-C876-4235-A35B-6171B20003A7}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="WinSCP" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Program Files (x86)\WinSCP" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Program Files (x86)\WinSCP" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Program Files (x86)\WinSCP" />
+					<param name="Simple" fileName="WinSCP.exe" filePath="C:\Program Files (x86)\WinSCP\" parameters="" workFolder="C:\Program Files (x86)\WinSCP" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+	<folders />
+</Root>

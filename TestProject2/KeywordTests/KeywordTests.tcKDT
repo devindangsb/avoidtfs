@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
+	<children>
+		<child name="Step1" key="{B1C8BEB4-0285-4207-A4B4-85F20A76FC9B}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Step1.tcKDTest" />
+		</child>
+		<child name="Test1" key="{9B1FF317-C114-4DE0-9560-7A4F452D4607}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test1.tcKDTest" />
+		</child>
+		<child name="Test2" key="{51D71B19-1B78-42A0-A3A7-B1DF4D23588E}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test2.tcKDTest" />
+		</child>
+		<child name="Test3" key="{69BB4E05-C4B7-40EC-9922-C979EAC5B3B0}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="Test3.tcKDTest" />
+		</child>
+	</children>
+	<folders>
+		<folder caption="doo" description="A logical folder that is used to organize project items and elements." moniker="">
+			<folders>
+				<folder caption="doo2" description="A logical folder that is used to organize project items and elements." moniker="">
+					<references>
+						<ref key="{9B1FF317-C114-4DE0-9560-7A4F452D4607}" />
+					</references>
+				</folder>
+			</folders>
+		</folder>
+	</folders>
+</Root>

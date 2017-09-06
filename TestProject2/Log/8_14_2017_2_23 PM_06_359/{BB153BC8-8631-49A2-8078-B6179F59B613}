@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-1" type="D" value="42961.5996375116"/>
+				<Prp name="d-0" type="D" value="42961.5994295255"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="&quot;ModifiedDate&quot;:&quot;2017-08-14T08:39:16.793+01:00&quot;,&quot;Groups&quot;:[]}"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="42961.5993801968"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-1" type="D" value="29"/>
+				<Prp name="dv-0" type="D" value="0"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="4"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{F8771DF1-EA1B-4F7A-9C01-48514D563621}"/>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-1" type="D" value="334524416"/>
+				<Prp name="dv-0" type="D" value="309940224"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="2"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{C9348AD9-A5D1-4DBF-801B-DD4EB62817C8}"/>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-1" type="D" value="29"/>
+				<Prp name="dv-0" type="D" value="37"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="3"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{6BE4D1E2-F122-432C-AE5D-3A85518B54BB}"/>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-1" type="D" value="41"/>
+				<Prp name="dv-0" type="D" value="41"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="1"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{F1745394-58CA-4F4D-94DE-AFA0AD7F11FB}"/>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="countertype" type="I" value="1"/>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{1112272C-13F4-40B9-B7D0-86766AA21547}"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="date" type="D" value="42961.5996375116"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

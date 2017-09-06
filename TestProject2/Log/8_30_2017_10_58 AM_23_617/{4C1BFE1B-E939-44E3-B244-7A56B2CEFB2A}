@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42977.4572523495"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="ReferenceError&#xA;Util is not defined&#xA;Error location:&#xA;Unit: &quot;ProjectSuite1\TestProject2\Script\Unit5&quot;&#xA;Line: 37 Column: 12."/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="message" type="S" value="JavaScript runtime error."/>
+			<Prp name="line no" type="I" value="36"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="GeneralEvents_OnStartTest"/>
+			<Prp name="line no" type="I" value="36"/>
+		</Node>
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="40"/>
+				<Prp name="dv-1" type="D" value="19"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="3"/>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{75677AC7-78B0-4B35-8055-4B879BE700EC}"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="countertype" type="I" value="0"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="353136640"/>
+				<Prp name="dv-1" type="D" value="354148352"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="2"/>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{CBA950CB-25AA-4897-9359-5E8FBC5D64A9}"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="countertype" type="I" value="4"/>
+		</Node>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="100"/>
+				<Prp name="dv-1" type="D" value="19"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="4"/>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{34351016-B4ED-4DB0-AE18-355AC496DFBC}"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="countertype" type="I" value="0"/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="28"/>
+				<Prp name="dv-1" type="D" value="29"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="1"/>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{EAC7AF23-1918-4F65-AE5A-95942A626540}"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="countertype" type="I" value="1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{283A64BB-4D92-403D-8B9B-DDB61AA05EB8}"/>
+			<Prp name="unit 1" type="S" value="{69BB4E05-C4B7-40EC-9922-C979EAC5B3B0}"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42977.4573822685"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="message" type="S" value="The test execution was interrupted."/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="Test3()"/>
+			<Prp name="line no" type="I" value="-1"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="stacktext" type="S" value="Test3()"/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42977.4573016782"/>
+				<Prp name="d-1" type="D" value="42977.4573822685"/>
+			</Node>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{1BE98D7F-FD86-4FC1-82EE-3B03B651D099}">
+	<children>
+		<child name="TestProject2" key="{AD783752-3ECB-45A6-9985-4F43E333741F}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="TestProject2\TestProject2.mds" />
+		</child>
+		<child name="TestProject4" key="{2BE7B5F6-D546-427C-B1E0-1447CB6F226E}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="TestProject4\TestProject4.mds" />
+		</child>
+		<child name="VBScript" key="{649D190E-843B-470F-9AF7-FBA9AAAA81CA}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="VBScript\VBScript.mds" />
+		</child>
+		<child name="TestProject7" key="{0D0021B6-BA2F-40AA-9582-7953CAA44737}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="TestProject7\TestProject7.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{35E0AA69-5341-48DA-A95E-FDDC5F65320E}">
+		<children>
+			<testItem key="{AD783752-3ECB-45A6-9985-4F43E333741F}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{2BE7B5F6-D546-427C-B1E0-1447CB6F226E}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{649D190E-843B-470F-9AF7-FBA9AAAA81CA}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{0D0021B6-BA2F-40AA-9582-7953CAA44737}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{1E669E80-2609-45F3-A2FC-EBE48FDF7AA7}">
+		<data Version="3">
+			<Items>
+				<Variable Name="Var1" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue StrValue="3200320032003200" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{EE059D52-E41B-4341-816D-84F2310BC52E}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />
+</Root>

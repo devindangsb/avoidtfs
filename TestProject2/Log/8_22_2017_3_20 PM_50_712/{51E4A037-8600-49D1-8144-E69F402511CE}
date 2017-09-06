@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+			<Prp name="line no" type="I" value="31"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+			<Prp name="line no" type="I" value="30"/>
+		</Node>
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-5" type="D" value="62"/>
+				<Prp name="dv-3" type="D" value="43"/>
+				<Prp name="dv-1" type="D" value="32"/>
+				<Prp name="dv-0" type="D" value="33"/>
+				<Prp name="dv-4" type="D" value="40"/>
+				<Prp name="dv-2" type="D" value="38"/>
+			</Node>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="id" type="S" value="{2BF9676E-3CEB-466A-8DAD-A06BF12EB75E}"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="columnindex" type="I" value="3"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-3" type="D" value="42969.6395981944"/>
+				<Prp name="d-0" type="D" value="42969.6395836574"/>
+				<Prp name="d-5" type="D" value="42969.6396080787"/>
+				<Prp name="d-1" type="D" value="42969.6395887963"/>
+				<Prp name="d-2" type="D" value="42969.6395929861"/>
+				<Prp name="d-4" type="D" value="42969.6396024769"/>
+			</Node>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{283A64BB-4D92-403D-8B9B-DDB61AA05EB8}"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="date" type="D" value="42969.6396080787"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;Keys&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.Bee.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Bee.formBee&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;formBee&lt;/a&gt;.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpFrmbox.form0.table0.panel0.row2.cell1.textboxSpUser&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Bee.formBee&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="date" type="D" value="42969.6395887963"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;Click&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.Bee.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Bee.formBee&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;formBee&lt;/a&gt;.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpWpActions&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Bee.formBee&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-5" type="D" value="62"/>
+				<Prp name="dv-3" type="D" value="43"/>
+				<Prp name="dv-1" type="D" value="32"/>
+				<Prp name="dv-0" type="D" value="100"/>
+				<Prp name="dv-4" type="D" value="39"/>
+				<Prp name="dv-2" type="D" value="37"/>
+			</Node>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="id" type="S" value="{DE0BF63B-6E1F-4006-9B6B-1F2316BAD4B5}"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="columnindex" type="I" value="4"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.Bee.Form(&quot;Bee&quot;)"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="790"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="16711680"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="910"/>
+					<Prp name="datetime" type="D" value="42969.8062594097"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object name" type="S" value="Aliases.Bee.formBee.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpFrmbox.form0.table0.panel0.row2.cell1.textboxSpUser"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="461"/>
+					<Prp name="object left" type="I" value="491"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="tcvi6573882133802.png"/>
+					<Prp name="click point x" type="I" value="531"/>
+					<Prp name="object right" type="I" value="657"/>
+					<Prp name="datetime" type="D" value="42969.8057407407"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="446"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="An object recognition hint. See Additional Information for details."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42969.6395929861"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p{padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Failed to find the exact match for the test object:&lt;/p&gt;&lt;p style=&quot;margin-left : 10px;&quot;&gt;&lt;code&gt;NameMapping.Sys.Bee.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;namemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{B81132F8-51B2-440B-B67E-8EB56A4FB563}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;formBee&lt;/a&gt;.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpFrmbox.form0.table0.panel0.row2.cell1.textboxSpUser&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Hint:&lt;/b&gt; A similar object has been found &amp;ndash; see the Picture tab. Consider updating the identification properties to use the similar object:&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;ObjectType&lt;/td&gt;&lt;td&gt;Form&lt;/td&gt;&lt;td&gt;Form&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Caption&lt;/td&gt;&lt;td&gt;Bee&lt;/td&gt;&lt;td&gt;Bee&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: red;&quot;&gt;&amp;#9447;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;ObjectGroupIndex&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&lt;a title=&quot;Do not use the property for object recognition.&quot; href=&quot;namemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{B81132F8-51B2-440B-B67E-8EB56A4FB563}.delete.ObjectGroupIndex&quot;&gt;Delete&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;a href=&quot;namemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{B81132F8-51B2-440B-B67E-8EB56A4FB563}&quot;&gt;View identification properties in the Name Mapping editor&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-5" type="D" value="450621440"/>
+				<Prp name="dv-3" type="D" value="450617344"/>
+				<Prp name="dv-1" type="D" value="450244608"/>
+				<Prp name="dv-0" type="D" value="425254912"/>
+				<Prp name="dv-4" type="D" value="456384512"/>
+				<Prp name="dv-2" type="D" value="455921664"/>
+			</Node>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="id" type="S" value="{E3FC288D-606D-4511-A510-0AE8921E2FD1}"/>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="columnindex" type="I" value="2"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+			<Prp name="line no" type="I" value="28"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="date" type="D" value="42969.6395981944"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;Click&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.Bee.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Bee.formBee&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;formBee&lt;/a&gt;.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpFrmbox.form0.table0.panel0.row2.cell1.textboxSpUser&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Bee.formBee&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-5" type="D" value="33"/>
+				<Prp name="dv-3" type="D" value="33"/>
+				<Prp name="dv-1" type="D" value="33"/>
+				<Prp name="dv-0" type="D" value="33"/>
+				<Prp name="dv-4" type="D" value="33"/>
+				<Prp name="dv-2" type="D" value="33"/>
+			</Node>
+			<Prp name="countertype" type="I" value="1"/>
+			<Prp name="id" type="S" value="{D4F73B91-196A-40EC-ADB1-3563A610A718}"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="length" type="I" value="6"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="columnindex" type="I" value="1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.Bee.Form(&quot;Bee&quot;)"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="790"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="16711680"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="910"/>
+					<Prp name="datetime" type="D" value="42969.8062689005"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object name" type="S" value="Aliases.Bee.formBee.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpFrmbox.form0.table0.panel0.row2.cell1.textboxSpUser"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="461"/>
+					<Prp name="object left" type="I" value="491"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="tcvi6576206133804.png"/>
+					<Prp name="click point x" type="I" value="-407"/>
+					<Prp name="object right" type="I" value="657"/>
+					<Prp name="datetime" type="D" value="42969.805775463"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-122"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="An object recognition hint. See Additional Information for details."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42969.6396024769"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p{padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Failed to find the exact match for the test object:&lt;/p&gt;&lt;p style=&quot;margin-left : 10px;&quot;&gt;&lt;code&gt;NameMapping.Sys.Bee.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;namemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{B81132F8-51B2-440B-B67E-8EB56A4FB563}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;formBee&lt;/a&gt;.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpFrmbox.form0.table0.panel0.row2.cell1.textboxSpUser&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Hint:&lt;/b&gt; A similar object has been found &amp;ndash; see the Picture tab. Consider updating the identification properties to use the similar object:&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;ObjectType&lt;/td&gt;&lt;td&gt;Form&lt;/td&gt;&lt;td&gt;Form&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Caption&lt;/td&gt;&lt;td&gt;Bee&lt;/td&gt;&lt;td&gt;Bee&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: red;&quot;&gt;&amp;#9447;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;ObjectGroupIndex&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&lt;a title=&quot;Do not use the property for object recognition.&quot; href=&quot;namemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{B81132F8-51B2-440B-B67E-8EB56A4FB563}.delete.ObjectGroupIndex&quot;&gt;Delete&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;a href=&quot;namemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{B81132F8-51B2-440B-B67E-8EB56A4FB563}&quot;&gt;View identification properties in the Name Mapping editor&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.Bee.Form(&quot;Bee&quot;)"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="790"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="16711680"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="910"/>
+					<Prp name="datetime" type="D" value="42969.8061829051"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object top" type="I" value="672"/>
+					<Prp name="object name" type="S" value="Aliases.Bee.formBee.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpWpActions"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="712"/>
+					<Prp name="object left" type="I" value="228"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="tcvi6571245133800.png"/>
+					<Prp name="click point x" type="I" value="538"/>
+					<Prp name="object right" type="I" value="832"/>
+					<Prp name="datetime" type="D" value="42969.8057175926"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="677"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="An object recognition hint. See Additional Information for details."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42969.6395165509"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p{padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Failed to find the exact match for the test object:&lt;/p&gt;&lt;p style=&quot;margin-left : 10px;&quot;&gt;&lt;code&gt;NameMapping.Sys.Bee.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;namemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{B81132F8-51B2-440B-B67E-8EB56A4FB563}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;formBee&lt;/a&gt;.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpWpActions&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Hint:&lt;/b&gt; A similar object has been found &amp;ndash; see the Picture tab. Consider updating the identification properties to use the similar object:&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;ObjectType&lt;/td&gt;&lt;td&gt;Form&lt;/td&gt;&lt;td&gt;Form&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: green;&quot;&gt;&amp;#10003;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Caption&lt;/td&gt;&lt;td&gt;Bee&lt;/td&gt;&lt;td&gt;Bee&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;font-weight: bold; color: red;&quot;&gt;&amp;#9447;&lt;/span&gt;&lt;/td&gt;&lt;td&gt;ObjectGroupIndex&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&lt;a title=&quot;Do not use the property for object recognition.&quot; href=&quot;namemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{B81132F8-51B2-440B-B67E-8EB56A4FB563}.delete.ObjectGroupIndex&quot;&gt;Delete&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;a href=&quot;namemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.{B81132F8-51B2-440B-B67E-8EB56A4FB563}&quot;&gt;View identification properties in the Name Mapping editor&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+	</Node>
+</Nodes>

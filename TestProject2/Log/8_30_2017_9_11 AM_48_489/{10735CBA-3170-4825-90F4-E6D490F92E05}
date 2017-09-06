@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="26"/>
+			</Node>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="3"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{935DF386-BA93-43E1-9609-CC4C37B865F3}"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{69BB4E05-C4B7-40EC-9922-C979EAC5B3B0}"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42977.3832808102"/>
+			</Node>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="type" type="I" value="0"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="284045312"/>
+			</Node>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="2"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{1ABB082A-6DA6-498E-AACC-75822003FC06}"/>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="26"/>
+			</Node>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="countertype" type="I" value="1"/>
+			<Prp name="columnindex" type="I" value="1"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{0615AEF3-EE85-4597-8D41-01E6CDA4BD04}"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="100"/>
+			</Node>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="4"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{8324B27E-BCA1-43E2-BC9E-FE954805F49B}"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="54"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="54"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.wndStart"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="42977.5498752662"/>
+					<Prp name="click point x" type="I" value="27"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="27"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi118103661840.png"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object right" type="I" value="54"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="54"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.wndStart"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="42977.5493287037"/>
+					<Prp name="click point x" type="I" value="32"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="14"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (27, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.explorer.wndStart&#xA;(Sys.Process(&quot;explorer&quot;).Window(&quot;Button&quot;, &quot;Start&quot;, 1))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42977.3832211111"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+	</Node>
+</Nodes>

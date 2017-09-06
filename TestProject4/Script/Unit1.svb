@@ -1,0 +1,21 @@
+﻿Function Main()
+
+' Obtains information about the browser
+set IE = Options.IESettings
+
+' reset zoom to 100% on new windows/tabs
+IE.ResetZoomOnStartupIE8 = True
+IE.SendSettingChangeMessage
+
+
+
+' Open smartbear.com in Chrome browser:
+Browsers.Item(btIExplorer).Run "http://smartbear.com"
+
+' Obtains Internet Explorer's version
+Ver = IE.GetInternetExplorerVersion()
+
+' Posts this version to the test log
+Log.Message(Ver)
+
+End Function 

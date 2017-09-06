@@ -1,0 +1,9 @@
+﻿Sub GeneralEvents_OnLogError(Sender, LogParams)
+If LogParams.MessageText="The atwin71.exe process crashed." Then
+LogParams.Locked = True
+End if
+End Sub
+
+Sub swag()
+  Log.Error("The atwin71.exe process crashe3d.")
+End Sub 

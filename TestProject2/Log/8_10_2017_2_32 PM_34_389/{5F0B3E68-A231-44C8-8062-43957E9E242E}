@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="messages">
+			<Node name="0">
+				<Prp name="message" type="S" value="Task2 (10.0.28.47)"/>
+				<Prp name="priority" type="I" value="300"/>
+				<Prp name="messageex" type="S" value=""/>
+				<Prp name="link" type="S" value="Task2 (10.0.28.47)"/>
+				<Prp name="type" type="I" value="2"/>
+				<Prp name="moniker" type="S" value="{16AE1889-07D4-4824-B6B6-A208B16380B2}"/>
+			</Node>
+		</Node>
+		<Node name="children">
+			<Node name="0">
+				<Node name="messages">
+					<Node name="0">
+						<Prp name="message" type="S" value="zzzzzzzzz (10.0.28.47): Network error with ID -2147014839."/>
+						<Prp name="priority" type="I" value="300"/>
+						<Prp name="messageex" type="S" value=""/>
+						<Prp name="link" type="S" value=""/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+				</Node>
+				<Node name="children"/>
+				<Prp name="name" type="S" value="Task2 (10.0.28.47)"/>
+				<Prp name="child data type" type="S" value="{1F81C75A-41A6-4DFB-AA82-4F8E4D3C31C2}"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="project" type="S" value="{AD783752-3ECB-45A6-9985-4F43E333741F}"/>
+				<Prp name="remote log" type="S" value=""/>
+				<Prp name="test" type="S" value="{B5988034-D4AD-489C-A81F-8597140660E4}"/>
+			</Node>
+		</Node>
+		<Prp name="name" type="S" value="Job1"/>
+		<Prp name="child data type" type="S" value="{3823162F-A7F6-4AA9-A87B-942010A7397E}"/>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="project" type="S" value="{AD783752-3ECB-45A6-9985-4F43E333741F}"/>
+		<Prp name="test" type="S" value="{1FE3058F-6B2E-4B14-8736-8F621C5952B1}"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{283A64BB-4D92-403D-8B9B-DDB61AA05EB8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="26" kind="0" dateTime="42969.8056712963" objectName="Aliases.explorer.popupContext.menuitemOpen" objectLeft="3" objectTop="3" objectRight="258" objectBottom="25" clickPointX="99" clickPointY="15" imageFileName="tcvi656792227643.png" storageFileName="tcvi656792227643.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="28" kind="0" dateTime="42969.8057175926" objectName="Aliases.Bee.formBee.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpWpActions" objectLeft="228" objectTop="672" objectRight="832" objectBottom="712" clickPointX="538" clickPointY="677" imageFileName="tcvi6571245133800.png" storageFileName="tcvi6571245133800.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="30" kind="0" dateTime="42969.8057407407" objectName="Aliases.Bee.formBee.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpFrmbox.form0.table0.panel0.row2.cell1.textboxSpUser" objectLeft="491" objectTop="441" objectRight="657" objectBottom="461" clickPointX="531" clickPointY="446" imageFileName="tcvi6573882133802.png" storageFileName="tcvi6573882133802.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="31" kind="0" dateTime="42969.805775463" objectName="Aliases.Bee.formBee.panelModal.panelSettingsscreen.panelSpWpFrmedit.panelSpFrmbox.form0.table0.panel0.row2.cell1.textboxSpUser" objectLeft="491" objectTop="441" objectRight="657" objectBottom="461" clickPointX="-407" clickPointY="-122" imageFileName="tcvi6576206133804.png" storageFileName="tcvi6576206133804.7z" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 6">
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{1112272C-13F4-40B9-B7D0-86766AA21547}"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;ClickButton&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.UpdaterEnduser&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;UpdaterEnduser&lt;/a&gt;.dialogUpdateDlkproDownloadToolRe.buttonDisclaim&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.UpdaterEnduser&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.6726471643"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="549"/>
+					<Prp name="datetime" type="D" value="42963.8392543403"/>
+					<Prp name="object bottom" type="I" value="257"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel2.panelShellFolderView.listItemsView.listitemUpdateDlkpro26420150324E.editName"/>
+					<Prp name="click point x" type="I" value="497"/>
+					<Prp name="object left" type="I" value="318"/>
+					<Prp name="click point y" type="I" value="246"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="549"/>
+					<Prp name="datetime" type="D" value="42963.8387037037"/>
+					<Prp name="object bottom" type="I" value="257"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel2.panelShellFolderView.listItemsView.listitemUpdateDlkpro26420150324E.editName"/>
+					<Prp name="click point x" type="I" value="497"/>
+					<Prp name="object left" type="I" value="318"/>
+					<Prp name="click point y" type="I" value="246"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="image file name" type="S" value="tcvi7049669962.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (179, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel2.panelShellFolderView.listItemsView.listitemUpdateDlkpro26420150324E.editName&#xA;(Sys.Process(&quot;explorer&quot;).Form(&quot;Downloads&quot;).Panel(&quot;Downloads&quot;).Window(&quot;DUIViewWndClassName&quot;, &quot;&quot;, 1).Pane(&quot;Explorer Pane&quot;).Window(&quot;CtrlNotifySink&quot;, &quot;&quot;, 3).Panel(&quot;Shell Folder View&quot;).List(&quot;Items View&quot;).ListItem(&quot;Update_DLKPro_2_6_4_20150324_EU.exe&quot;).Edit(&quot;Name&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.6725997454"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;ClickButton&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;Update_DLKPro_2_6_4_20150324_EU&lt;/a&gt;.dialogWinzipSelfExtractorUpdateD.buttonSetup&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.6726301042"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="789"/>
+					<Prp name="datetime" type="D" value="42963.8392393171"/>
+					<Prp name="object bottom" type="I" value="341"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel2.panelShellFolderView.listItemsView.listitemActualPng.editType"/>
+					<Prp name="click point x" type="I" value="672"/>
+					<Prp name="object left" type="I" value="669"/>
+					<Prp name="click point y" type="I" value="324"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (3, 5) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel2.panelShellFolderView.listItemsView.listitemActualPng.editType&#xA;(Sys.Process(&quot;explorer&quot;).Form(&quot;Downloads&quot;).Panel(&quot;Downloads&quot;).Window(&quot;DUIViewWndClassName&quot;, &quot;&quot;, 1).Pane(&quot;Explorer Pane&quot;).Window(&quot;CtrlNotifySink&quot;, &quot;&quot;, 3).Panel(&quot;Shell Folder View&quot;).List(&quot;Items View&quot;).ListItem(&quot;Actual.png&quot;).Edit(&quot;Type&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.6725847917"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-7" type="D" value="10"/>
+				<Prp name="dv-1" type="D" value="10"/>
+				<Prp name="dv-3" type="D" value="40"/>
+				<Prp name="dv-8" type="D" value="23"/>
+				<Prp name="dv-4" type="D" value="21"/>
+				<Prp name="dv-9" type="D" value="23"/>
+				<Prp name="dv-5" type="D" value="23"/>
+				<Prp name="dv-0" type="D" value="24"/>
+				<Prp name="dv-6" type="D" value="22"/>
+				<Prp name="dv-2" type="D" value="9"/>
+			</Node>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="S" value="{AFCC90EF-F236-4F4A-B0A4-2EC8B0B55B9E}"/>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="3"/>
+			<Prp name="length" type="I" value="10"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-9" type="D" value="42963.6726707176"/>
+				<Prp name="d-5" type="D" value="42963.6726301042"/>
+				<Prp name="d-0" type="D" value="42963.6725693981"/>
+				<Prp name="d-6" type="D" value="42963.6726418403"/>
+				<Prp name="d-2" type="D" value="42963.6725997454"/>
+				<Prp name="d-1" type="D" value="42963.6725847917"/>
+				<Prp name="d-7" type="D" value="42963.6726471643"/>
+				<Prp name="d-3" type="D" value="42963.672614213"/>
+				<Prp name="d-8" type="D" value="42963.6726590856"/>
+				<Prp name="d-4" type="D" value="42963.6726190741"/>
+			</Node>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="length" type="I" value="10"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-7" type="D" value="344014848"/>
+				<Prp name="dv-1" type="D" value="293703680"/>
+				<Prp name="dv-3" type="D" value="319070208"/>
+				<Prp name="dv-8" type="D" value="319086592"/>
+				<Prp name="dv-4" type="D" value="344002560"/>
+				<Prp name="dv-9" type="D" value="319188992"/>
+				<Prp name="dv-5" type="D" value="319074304"/>
+				<Prp name="dv-0" type="D" value="293548032"/>
+				<Prp name="dv-6" type="D" value="319082496"/>
+				<Prp name="dv-2" type="D" value="293703680"/>
+			</Node>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="S" value="{54109B71-AC9C-4CE3-B5B5-103730D4F811}"/>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="2"/>
+			<Prp name="length" type="I" value="10"/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-7" type="D" value="19"/>
+				<Prp name="dv-1" type="D" value="18"/>
+				<Prp name="dv-3" type="D" value="19"/>
+				<Prp name="dv-8" type="D" value="18"/>
+				<Prp name="dv-4" type="D" value="19"/>
+				<Prp name="dv-9" type="D" value="18"/>
+				<Prp name="dv-5" type="D" value="18"/>
+				<Prp name="dv-0" type="D" value="18"/>
+				<Prp name="dv-6" type="D" value="18"/>
+				<Prp name="dv-2" type="D" value="18"/>
+			</Node>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="S" value="{2778B1F4-BB58-4FC5-B94C-C1A4FDC59E56}"/>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="countertype" type="I" value="1"/>
+			<Prp name="columnindex" type="I" value="1"/>
+			<Prp name="length" type="I" value="10"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-7" type="D" value="10"/>
+				<Prp name="dv-1" type="D" value="10"/>
+				<Prp name="dv-3" type="D" value="40"/>
+				<Prp name="dv-8" type="D" value="24"/>
+				<Prp name="dv-4" type="D" value="20"/>
+				<Prp name="dv-9" type="D" value="22"/>
+				<Prp name="dv-5" type="D" value="24"/>
+				<Prp name="dv-0" type="D" value="0"/>
+				<Prp name="dv-6" type="D" value="21"/>
+				<Prp name="dv-2" type="D" value="9"/>
+			</Node>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="S" value="{4F5D991B-FE48-41C4-8B28-3D0F38867F4C}"/>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="4"/>
+			<Prp name="length" type="I" value="10"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;ClickButton&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;Update_DLKPro_2_6_4_20150324_EU&lt;/a&gt;.dialogWinzipSelfExtractorUpdateD.buttonCancel&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.6726590856"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;ClickButton&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;Update_DLKPro_2_6_4_20150324_EU&lt;/a&gt;.dialogWinzipSelfExtractor.buttonOk&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.6726190741"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="6"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;ClickButton&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;Update_DLKPro_2_6_4_20150324_EU&lt;/a&gt;.dialogWinzipSelfExtractor.buttonYes&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="6"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.6726707176"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;ClickButton&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;Update_DLKPro_2_6_4_20150324_EU&lt;/a&gt;.dialogWinzipSelfExtractorUpdateD.buttonAbout&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.Update_DLKPro_2_6_4_20150324_EU&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.672614213"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;The test object was not found when executing the &lt;code&gt;Click&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&lt;a style=&quot;color: red; font-weight: bold;&quot; href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.UpdaterEnduser&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;UpdaterEnduser&lt;/a&gt;.dialogUpdateDlkproDownloadToolRe.dialogUpdateDlkproDownloadToolRe&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips:&lt;/b&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;See the &lt;i&gt;Object recognition hint&lt;/i&gt; messages in the log above for possible solutions.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;lnamemapping://{5D09F299-267B-4EFA-95F5-E32FFF493575}.Aliases.UpdaterEnduser&quot;&gt;View and change&lt;/a&gt; mapping settings for the missing object.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn about possible causes of the error.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.6726418403"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="549"/>
+					<Prp name="datetime" type="D" value="42963.839167419"/>
+					<Prp name="object bottom" type="I" value="257"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel2.panelShellFolderView.listItemsView.listitemUpdateDlkpro26420150324E.editName"/>
+					<Prp name="click point x" type="I" value="497"/>
+					<Prp name="object left" type="I" value="318"/>
+					<Prp name="click point y" type="I" value="246"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="549"/>
+					<Prp name="datetime" type="D" value="42963.8386574074"/>
+					<Prp name="object bottom" type="I" value="257"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object name" type="S" value="Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel2.panelShellFolderView.listItemsView.listitemUpdateDlkpro26420150324E.editName"/>
+					<Prp name="click point x" type="I" value="497"/>
+					<Prp name="object left" type="I" value="318"/>
+					<Prp name="click point y" type="I" value="246"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="235"/>
+					<Prp name="image file name" type="S" value="tcvi6564569960.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (179, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.explorer.formDownloads.panelDownloads.panel.paneExplorerPane.panel2.panelShellFolderView.listItemsView.listitemUpdateDlkpro26420150324E.editName&#xA;(Sys.Process(&quot;explorer&quot;).Form(&quot;Downloads&quot;).Panel(&quot;Downloads&quot;).Window(&quot;DUIViewWndClassName&quot;, &quot;&quot;, 1).Pane(&quot;Explorer Pane&quot;).Window(&quot;CtrlNotifySink&quot;, &quot;&quot;, 3).Panel(&quot;Shell Folder View&quot;).List(&quot;Items View&quot;).ListItem(&quot;Update_DLKPro_2_6_4_20150324_EU.exe&quot;).Edit(&quot;Name&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="42963.6725127778"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+	</Node>
+</Nodes>

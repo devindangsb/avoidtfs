@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="12.0">
+	<children>
+		<child name="HwndSource_MainForm1" key="{705206BA-A897-4130-9B2C-27D8B14A3310}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="HwndSource_MainForm1" ID="{705206BA-A897-4130-9B2C-27D8B14A3310}" FileName="Regions\HwndSource_MainForm1.png" Update="False" />
+		</child>
+		<child name="rlinputQ" key="{1C3D6045-4E75-4B4C-A85A-8018F571CC13}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="rlinputQ" ID="{1C3D6045-4E75-4B4C-A85A-8018F571CC13}" FileName="Regions\rlinputQ.png" Update="False" />
+		</child>
+		<child name="textboxOrderidtextbox" key="{376BB817-2FB0-46B4-A2EC-4B434C49C597}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="textboxOrderidtextbox" ID="{376BB817-2FB0-46B4-A2EC-4B434C49C597}" FileName="Regions\textboxOrderidtextbox.png" Update="False" />
+		</child>
+		<child name="Edit" key="{0B99FEB5-9731-4340-8015-156B6D881173}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="Edit" ID="{0B99FEB5-9731-4340-8015-156B6D881173}" FileName="Regions\Edit.jpg" Update="False" />
+		</child>
+		<child name="wndNotepad" key="{1EA26AA7-6C47-4D3F-A599-D440DFFF2332}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="wndNotepad" ID="{1EA26AA7-6C47-4D3F-A599-D440DFFF2332}" FileName="Regions\wndNotepad.jpg" Update="False" />
+		</child>
+		<child name="Edit1" key="{D9F62EB4-7733-41ED-AD9A-7F7478C3E033}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="Edit1" ID="{D9F62EB4-7733-41ED-AD9A-7F7478C3E033}" FileName="Regions\Edit1.jpg" Update="False" />
+		</child>
+		<child name="wndShell_TrayWnd" key="{398842B7-717D-474A-B0E8-3A16A6EE3046}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="wndShell_TrayWnd" ID="{398842B7-717D-474A-B0E8-3A16A6EE3046}" FileName="Regions\wndShell_TrayWnd.jpg" Update="False" />
+		</child>
+		<child name="wndShell_TrayWnd1" key="{6BA28DCA-596F-4A14-A9FE-B92ED2C08552}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="wndShell_TrayWnd1" ID="{6BA28DCA-596F-4A14-A9FE-B92ED2C08552}" FileName="Regions\wndShell_TrayWnd1.png" Update="False" />
+		</child>
+		<child name="AfxFrameOrView120u1" key="{253CC0C0-B1ED-4559-835C-947F22C8DDF8}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="AfxFrameOrView120u1" ID="{253CC0C0-B1ED-4559-835C-947F22C8DDF8}" FileName="Regions\AfxFrameOrView120u1.png" Update="False" />
+		</child>
+		<child name="Mask_png" key="{B907B826-A3FC-46D3-B14A-27DD827DF7ED}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="Mask_png" ID="{B907B826-A3FC-46D3-B14A-27DD827DF7ED}" FileName="Regions\Mask.png" Update="False" />
+		</child>
+		<child name="z_png" key="{FDF198AB-AA7F-4B26-8C0E-428162EE5E7B}" type="Region" typeId="{1FD256C1-604C-48A1-9990-9A9329139EC4}" pluginName="Stores">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="12.0" caption="z_png" ID="{FDF198AB-AA7F-4B26-8C0E-428162EE5E7B}" FileName="Regions\z.png" Update="False" />
+		</child>
+	</children>
+	<folders />
+</Root>

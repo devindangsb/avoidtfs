@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42961.5878811227"/>
+				<Prp name="d-1" type="D" value="42961.5878811806"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{1112272C-13F4-40B9-B7D0-86766AA21547}"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="306397184"/>
+				<Prp name="dv-1" type="D" value="306397184"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="columnindex" type="I" value="2"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="id" type="S" value="{3614F692-CBAC-4F06-B74E-2E11A7C1312A}"/>
+		</Node>
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="33"/>
+				<Prp name="dv-1" type="D" value="33"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="columnindex" type="I" value="3"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="id" type="S" value="{C1187AFD-44A8-43B8-B5F7-7C3CC0EC3EC2}"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="date" type="D" value="42961.5878811806"/>
+			<Prp name="message" type="S" value="True"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="0"/>
+				<Prp name="dv-1" type="D" value="0"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="columnindex" type="I" value="4"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="id" type="S" value="{2E225EF9-3620-4F8C-85DE-F50541EAB521}"/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="41"/>
+				<Prp name="dv-1" type="D" value="41"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="countertype" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="columnindex" type="I" value="1"/>
+			<Prp name="length" type="I" value="2"/>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="id" type="S" value="{AC399B7F-7D49-46F7-AA05-E2719DCDC2FC}"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="date" type="D" value="42961.5878327199"/>
+			<Prp name="message" type="S" value="80"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+	</Node>
+</Nodes>

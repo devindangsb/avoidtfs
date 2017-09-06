@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{F2CA00A5-7C54-444B-86CA-7E69B964D204}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit1.js" />
+		</child>
+		<child name="TestNetSuite" key="{764B8448-FAE8-40B1-A56D-C89E357D5023}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="TestNetSuite.js" />
+		</child>
+		<child name="ConvertedKeyword" key="{BD11E60B-8C24-412C-8976-7932A9202D86}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="ConvertedKeyword.js" />
+		</child>
+		<child name="EM" key="{42BFCD1C-2238-4A9E-AA1A-31DCD9A53D27}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="EM.js" />
+		</child>
+		<child name="Unit5" key="{283A64BB-4D92-403D-8B9B-DDB61AA05EB8}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit5.js" />
+		</child>
+	</children>
+	<folders />
+</Root>

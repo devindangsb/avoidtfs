@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{69BB4E05-C4B7-40EC-9922-C979EAC5B3B0}"/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="33"/>
+				<Prp name="dv-1" type="D" value="33"/>
+			</Node>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="countertype" type="I" value="1"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{08E70D0D-16AA-4383-BCC8-7F56B0D669D8}"/>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="columnindex" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="length" type="I" value="2"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test3()"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="0"/>
+				<Prp name="dv-1" type="D" value="0"/>
+			</Node>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{4A40E27B-8CC3-4CE3-8CBC-465EF4F75F86}"/>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="columnindex" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="length" type="I" value="2"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="358821888"/>
+				<Prp name="dv-1" type="D" value="358821888"/>
+			</Node>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{2D891499-7F53-4F7E-87E5-11D7CB6220CD}"/>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="columnindex" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="length" type="I" value="2"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42977.4924966782"/>
+				<Prp name="d-1" type="D" value="42977.4924969097"/>
+			</Node>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="length" type="I" value="2"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42977.4924459143"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="message" type="S" value="Unable to verify a value with the property checkpoint."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;																	   &lt;head&gt;																	   &lt;style&gt;																	   body, table																	   {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0; width: 100%; text-align:left}																	   TH																	   {font-weight : normal;}																	   TD																	   { border-bottom: 2px solid #A0B5D0;}																	   SPAN.Gray																	   {color: #6D6D6D; }																	   SPAN.GrayBold																	   {font-weight: bold; color: #6D6D6D; }																	   SPAN.Bold																	   {font-weight: bold;}																	   .BoldLineBottom																	   {border-bottom: 2px solid #A0B5D0}																	   .BoldLineTop																	   {border-top: 2px solid #A0B5D0}																	   .BK {background-color: #DBEFFD}																	   .HB																	   {width:10%; white-space:nowrap;padding: 4px 4px 4px 4px;font-weight : bold;}																	   &lt;/style&gt;																	   &lt;/head&gt;																	   &lt;body&gt;																	   &lt;p&gt;The &quot;contentText&quot; property of the &quot;Stub object&quot; object does not meet the checkpoint's condition.&lt;/p&gt;																	   &lt;table border=0 cellspacing=0 cellpadding=3&gt;																	   &lt;thead class='BK' valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineTop HB'&gt;Object name:&lt;/th&gt;																	   &lt;th class='BoldLineTop'&gt;Stub object&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;th class='BoldLineBottom HB'&gt;Property:&lt;/th&gt;																	   &lt;th class='BoldLineBottom'&gt;contentText&lt;/th&gt;																	   &lt;/tr&gt;																	   &lt;/thead&gt;																	   &lt;tbody valign=&quot;top&quot;&gt;																	   &lt;tr&gt;																	   &lt;td class='BK HB'&gt;Expected value&lt;/td&gt;																	   &lt;td&gt;Regular&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Condition&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;cmpEqual&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;tr&gt;																	   &lt;td class=&quot;BK HB&quot;&gt;&lt;SPAN CLASS='Bold'&gt;Case-sensitive&lt;/SPAN&gt;&lt;/td&gt;																	   &lt;td&gt;true&lt;/td&gt;																	   &lt;/tr&gt;																	   &lt;/tbody&gt;																	   &lt;/table&gt;																	   																	   &lt;/body&gt;																	   &lt;/html&gt;"/>
+			<Prp name="stack end" type="I" value="0"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test3()"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="42977.4924969097"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="message" type="S" value="The test execution was interrupted."/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="stack end" type="I" value="1"/>
+		</Node>
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="44"/>
+				<Prp name="dv-1" type="D" value="44"/>
+			</Node>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="id" type="S" value="{53EB231B-F9F0-4416-AEAC-4F6F841D8D51}"/>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="columnindex" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="length" type="I" value="2"/>
+		</Node>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+	</Node>
+</Nodes>

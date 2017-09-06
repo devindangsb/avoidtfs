@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="vm2_pc">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="address" type="S" value="VM2-PC"/>
+					<Prp name="base path" type="S" value="C:\Users\DustinDang\Desktop\"/>
+					<Prp name="caption" type="S" value="VM2_PC"/>
+					<Prp name="domain" type="S" value="VM2-PC"/>
+					<Prp name="logonmode" type="I" value="1"/>
+					<Prp name="password" type="S" value="2E1D878DD74F35157DF0F7DFFCAE8D1E0CAF5F9CE2A56C4BF6DC"/>
+					<Prp name="signature" type="S" value="{4C283132-D38F-4C25-B72C-75AD0D8A3093}"/>
+					<Prp name="source" type="S" value=""/>
+					<Prp name="user name" type="S" value="Dustin"/>
+					<Prp name="version" type="S" value="12.0"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{217AB9E6-F64A-45A0-825F-A8FCE1E138C4}"/>
+				<Prp name="pluginname" type="S" value="Network Suite"/>
+				<Prp name="type" type="S" value="{4C283132-D38F-4C25-B72C-75AD0D8A3093}"/>
+				<Prp name="typename" type="S" value="Host"/>
+			</Node>
+			<Node name="zzzzzzzzz">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="address" type="S" value="10.0.28.47"/>
+					<Prp name="base path" type="S" value="C:\Users\DevinDang\Desktop\"/>
+					<Prp name="caption" type="S" value="zzzzzzzzz"/>
+					<Prp name="domain" type="S" value="VM2-PC"/>
+					<Prp name="logonmode" type="I" value="1"/>
+					<Prp name="password" type="S" value="2E1D878DD74F351305F5F7DFFCAD751F74CBF4DF56B1549FD077B523"/>
+					<Prp name="signature" type="S" value="{4C283132-D38F-4C25-B72C-75AD0D8A3093}"/>
+					<Prp name="source" type="S" value=""/>
+					<Prp name="user name" type="S" value="Sally"/>
+					<Prp name="version" type="S" value="12.0"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{218D1C43-7031-42D3-BEBF-82CA6AA688A7}"/>
+				<Prp name="pluginname" type="S" value="Network Suite"/>
+				<Prp name="type" type="S" value="{4C283132-D38F-4C25-B72C-75AD0D8A3093}"/>
+				<Prp name="typename" type="S" value="Host"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{1478418C-D916-49E9-8E78-BF4561C164F9}"/>
+		<Prp name="version" type="S" value="12.0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{30501691-969F-4007-923F-BA4459E51E6A}" version="12.0">
+	<children>
+		<child name="notepad" key="{1A4C952B-589C-4C77-AEAA-4647F5C3957E}" type="Object" typeId="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" pluginName="Stores">
+			<data signature="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" version="12.0" caption="notepad" ID="{1A4C952B-589C-4C77-AEAA-4647F5C3957E}" FileName="Objects\notepad.tcObject" Update="False" />
+		</child>
+	</children>
+	<folders />
+</Root>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" version="1140" key="{FBB39DA4-47C5-4173-833A-4F95BAD871D8}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}">
+	<config nodeName="ImageRepository" />
+	<testData />
+	<data />
+	<children>
+		<child key="{51A9F97F-FC8F-4256-AE54-0A151D3A11AF}" type="Image Set" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+			<data path="ImageSet1.tcIRIS" />
+		</child>
+	</children>
+	<folders />
+</Root>

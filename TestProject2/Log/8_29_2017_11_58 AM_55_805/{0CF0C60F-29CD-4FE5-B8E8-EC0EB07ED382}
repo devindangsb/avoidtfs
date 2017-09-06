@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="n-3">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="53"/>
+				<Prp name="dv-2" type="D" value="53"/>
+				<Prp name="dv-1" type="D" value="31"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="length" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="color" type="I" value="10144777"/>
+			<Prp name="id" type="S" value="{20BDA601-4C53-4049-9291-9CC0779EC165}"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="name" type="S" value="% CPU [localhost]"/>
+			<Prp name="columnindex" type="I" value="3"/>
+		</Node>
+		<Node name="n-2">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="392527872"/>
+				<Prp name="dv-2" type="D" value="411332608"/>
+				<Prp name="dv-1" type="D" value="392527872"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="length" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Private Bytes is the current size, in bytes, of memory that this process has allocated that cannot be shared with other processes."/>
+			<Prp name="color" type="I" value="10000609"/>
+			<Prp name="id" type="S" value="{CC9557F2-D72F-4DB9-A25D-685B6C037359}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="name" type="S" value="Private Bytes [TestComplete] [localhost]"/>
+			<Prp name="columnindex" type="I" value="2"/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-1" type="D" value="42976.4993292245"/>
+				<Prp name="d-0" type="D" value="42976.4993157292"/>
+				<Prp name="d-2" type="D" value="42976.4993330093"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="length" type="I" value="3"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="columnindex" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="click point y" type="I" value="332"/>
+					<Prp name="datetime" type="D" value="42976.6659286921"/>
+					<Prp name="object bottom" type="I" value="830"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="146"/>
+					<Prp name="object right" type="I" value="1528"/>
+					<Prp name="object name" type="S" value="Aliases.mspaint.wndMSPaintApp.MSPaintView.Afx"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="click point x" type="I" value="877"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="42976.4992636574"/>
+			<Prp name="remarks" type="S" value="A click at point (869, 186) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.mspaint.wndMSPaintApp.MSPaintView.Afx&#xA;(Sys.Process(&quot;mspaint&quot;).Window(&quot;MSPaintApp&quot;, &quot;Untitled - Paint&quot;, 1).Window(&quot;MSPaintView&quot;, &quot;&quot;, 1).Window(&quot;Afx:00000000FFD50000:8&quot;, &quot;&quot;, 1))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="n-4">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="100"/>
+				<Prp name="dv-2" type="D" value="53"/>
+				<Prp name="dv-1" type="D" value="31"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="length" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Percentage of non-idle processor time."/>
+			<Prp name="color" type="I" value="1790374"/>
+			<Prp name="id" type="S" value="{AD7EBA32-8C0A-4441-9EFF-25BAC5ACC5E2}"/>
+			<Prp name="countertype" type="I" value="0"/>
+			<Prp name="name" type="S" value="% CPU [SB-MA-PC0D8L69]"/>
+			<Prp name="columnindex" type="I" value="4"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="date" type="D" value="42976.4993292245"/>
+			<Prp name="remarks" type="S" value="'~[PrtSc]' was sent as a keyboard input to an active window."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;z_png&quot; failed. See Additional Information for details."/>
+			<Prp name="date" type="D" value="42976.4993330093"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{FDF198AB-AA7F-4B26-8C0E-428162EE5E7B}&quot;&gt; Click here to show or modify data of the checkpoint &quot;z_png&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;The images are not equal.&lt;br&gt;&lt;br&gt;The pixel difference is 1 %.&lt;br&gt;The color difference is 1 %.&lt;br&gt;&lt;br&gt;There is a slight difference between the compared images. If you want the checkpoint to report them as equal, set its Pixel Tolerance parameter to 100.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;checkpointupdate://1|{A3C3CAF2-8A82-4853-B117-9BA139E13DCA}|{AD783752-3ECB-45A6-9985-4F43E333741F}|z_png|CheckpointData\checkpoint_8_29_2017.bmp|&quot;&gt;Update the &quot;z_png&quot; checkpoint data.&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value="Picture1.png;Picture2.png;Picture3.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="test"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+		</Node>
+		<Node name="n-1">
+			<Node name="data">
+				<Prp name="dv-0" type="D" value="35"/>
+				<Prp name="dv-2" type="D" value="34"/>
+				<Prp name="dv-1" type="D" value="34"/>
+			</Node>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="length" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="description" type="S" value="Memory usage in percent."/>
+			<Prp name="color" type="I" value="14857345"/>
+			<Prp name="id" type="S" value="{DD6A01DD-078F-47C8-A6F9-A5D761B80623}"/>
+			<Prp name="countertype" type="I" value="1"/>
+			<Prp name="name" type="S" value="% Memory [localhost]"/>
+			<Prp name="columnindex" type="I" value="1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{42BFCD1C-2238-4A9E-AA1A-31DCD9A53D27}"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="5"/>
+	</Node>
+</Nodes>

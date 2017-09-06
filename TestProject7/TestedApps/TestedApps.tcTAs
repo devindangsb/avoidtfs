@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1140" key="{FF2944D7-B6C6-4FDB-88D3-75F2352A0BB0}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{CF4EB6C0-D0F7-42B8-9FEE-73677DB4D051}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="Orders" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Users\Public\Documents\TestComplete 10 Samples\Desktop\Orders\WPF\bin\Release" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Users\Public\Documents\TestComplete 10 Samples\Desktop\Orders\WPF\bin\Release" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="8" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Users\Public\Documents\TestComplete 10 Samples\Desktop\Orders\WPF\bin\Release" />
+					<param name="Simple" fileName="Orders.exe" filePath="C:\Users\Public\Documents\TestComplete 10 Samples\Desktop\Orders\WPF\bin\Release\" parameters="" workFolder="C:\Users\Public\Documents\TestComplete 10 Samples\Desktop\Orders\WPF\bin\Release" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+	<folders />
+</Root>
