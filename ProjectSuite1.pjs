@@ -13,6 +13,9 @@
 		<child name="TestProject7" key="{0D0021B6-BA2F-40AA-9582-7953CAA44737}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
 			<data path="TestProject7\TestProject7.mds" />
 		</child>
+		<child name="zaaaaa" key="{6A3EEC35-2D1F-49CB-99BF-B66D5E337B58}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="zaaaaa\zaaaaa.mds" />
+		</child>
 	</children>
 	<folders />
 	<testItems key="{35E0AA69-5341-48DA-A95E-FDDC5F65320E}">
@@ -21,6 +24,7 @@
 			<testItem key="{2BE7B5F6-D546-427C-B1E0-1447CB6F226E}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{649D190E-843B-470F-9AF7-FBA9AAAA81CA}" enabled="True" timeout="0" stopOnError="True" description="" />
 			<testItem key="{0D0021B6-BA2F-40AA-9582-7953CAA44737}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{6A3EEC35-2D1F-49CB-99BF-B66D5E337B58}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{1E669E80-2609-45F3-A2FC-EBE48FDF7AA7}">
